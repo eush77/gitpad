@@ -101,7 +101,9 @@ server.start = function (port, hostname, cb) {
 
 
 if (!module.parent) {
-  server.start(process.argv[2]);
+  server.start(process.argv[2], function (port, hostname) {
+    console.log('Server started at ' + hostname + ':' + port);
+  });
 }
 
 module.exports = server;
