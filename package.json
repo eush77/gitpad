@@ -1,7 +1,7 @@
 {
   "name": "gitpad",
-  "version": "0.0.0",
-  "description": "Version-controlled text editor",
+  "version": "0.0.1",
+  "description": "WIP",
   "author": "Eugene Sharygin <eush77@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/eush77/gitpad",
@@ -12,15 +12,7 @@
   "bugs": {
     "url": "https://github.com/eush77/gitpad/issues"
   },
-  "keywords": [
-    "git",
-    "notepad",
-    "version",
-    "commit",
-    "branch",
-    "vcs",
-    "version control"
-  ],
+  "keywords": [],
   "dependencies": {
     "backbone": "^1.1.2",
     "concat-stream": "^1.4.6",
